@@ -21,7 +21,7 @@ function App() {
         )}`}
         target="_blank"
         rel="noopener noreferrer"
-        className=" fixed z-100 right-10 bottom-10 flex items-center  bg-green-500 hover:bg-green-600 p-3 text-white rounded-full transition"
+        className=" fixed z-100 right-5 bottom-10 flex items-center  bg-green-500 hover:bg-green-600 p-3 text-white rounded-full transition"
       >
         <FaWhatsapp className="text-4xl" />
       </a>
