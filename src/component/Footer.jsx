@@ -80,7 +80,7 @@ const Footer = () => {
         {/* ===== SOCIAL / CONTACT ===== */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">
-            We're Here to Help
+            We are Here to Help
           </h3>
           <p className="text-sm text-gray-400 mb-4">
             Connect with us on our social platforms for updates and support.

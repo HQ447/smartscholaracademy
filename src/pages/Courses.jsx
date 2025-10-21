@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Courses = () => {
@@ -127,7 +126,7 @@ const Courses = () => {
               <h3 className="text-2xl font-semibold text-blue-600 mb-4 border-b pb-2">
                 {subject.title}
               </h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-700">
+              <ul className="list-disc list-inside space-y-2 text-gray-700 text-sm">
                 {subject.items.map((item, idx) => (
                   <li key={idx} className="leading-relaxed">
                     {item}

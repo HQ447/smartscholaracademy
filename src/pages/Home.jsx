@@ -1,11 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-import { FaWhatsapp } from "react-icons/fa";
-
 const Home = () => {
-  const whatsappNumber = "923001234567"; // <-- replace with your WhatsApp number (without +)
-  const whatsappMessage =
-    "Hello! I’d like to know more about your tutoring services.";
   return (
     <div className="w-full font-sans text-gray-800">
       {/* ================= HEADER SECTION ================= */}
@@ -147,16 +142,7 @@ const Home = () => {
           ))}
         </div>
       </section>
-      <a
-        href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-          whatsappMessage
-        )}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className=" fixed z-100 right-10 bottom-10 flex items-center  bg-green-500 hover:bg-green-600 p-3 text-white rounded-full transition"
-      >
-        <FaWhatsapp className="text-4xl" />
-      </a>
+
       {/* ================= TRUSTED BY ================= */}
       <section className="py-16 bg-blue-600 text-white text-center px-4">
         <h2 className="text-3xl md:text-4xl font-semibold mb-6">
