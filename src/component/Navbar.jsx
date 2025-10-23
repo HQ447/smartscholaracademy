@@ -18,17 +18,17 @@ const Navbar = () => {
     "Hello! I’d like to know more about your tutoring services.";
 
   return (
-    <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+    <nav className="w-full bg-[#ffffffad] md:bg-white shadow-md fixed top-0 left-0 z-50">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 py-3 md:py-4">
         {/* Left: Logo */}
         <div className="flex items-center gap-2">
           <img
             src="https://smartscholaredu.com/wp-content/uploads/2025/07/HD_LOGO__1___1_-removebg-preview.png"
             alt="Smart Scholars Academy"
-            className="w-14 h-14 rounded-full object-cover"
+            className="w-10 h-10 md:w-14 md:h-14 rounded-full object-cover"
           />
-          <h1 className="text-xl font-bold text-blue-700 hidden sm:block">
-            SmartScholarsAcademy
+          <h1 className="md:text-xl text-sm font-bold text-blue-900  sm:block">
+            Smart Scholars Academy
           </h1>
         </div>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-white absolute top-[80px] left-0 w-full shadow-lg z-40 animate-slideDown">
+        <div className="md:hidden bg-[#ffffffd8] absolute top-[64px] left-0 w-full shadow-lg z-40 animate-slideDown">
           <ul className="flex flex-col items-center py-6 space-y-4 font-medium text-gray-700">
             {navLinks.map((link, index) => (
               <NavLink

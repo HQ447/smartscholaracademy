@@ -9,7 +9,7 @@ const Footer = () => {
           <img
             src="https://smartscholaredu.com/wp-content/uploads/2025/07/HD_LOGO__1___1_-removebg-preview.png"
             alt="SmartScholarsAcademy Logo"
-            className="w-26 md:w-36 mb-4 "
+            className="w-15 md:w-36 mb-4 "
           />
           <h3 className="text-xl font-semibold text-white mb-3">
             Book a Free Trial Now
